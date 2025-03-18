@@ -1,0 +1,31 @@
+{
+  "timeZone": "Europe/Paris",
+  "dependencies": {
+    "enabledAdvancedServices": []
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "urlFetchWhitelist": [
+    "https://*.myshopify.com/admin/api/*"
+  ],
+  "dataStudio": {
+    "name": "Shopify Orders Connector",
+    "logoUrl": "https://cyrillus.fr/cdn/shop/files/logo_380x.svg",
+    "company": "Cyrillus",
+    "companyUrl": "https://www.cyrillus.fr",
+    "addonUrl": "https://github.com/yourusername/lookerstudio_connector_shopify",
+    "supportUrl": "https://github.com/yourusername/lookerstudio_connector_shopify/issues",
+    "description": "Connect to Shopify Orders Data to visualize your store's performance",
+    "shortDescription": "Import and analyze your Shopify orders data",
+    "sources": ["SHOPIFY"],
+    "authType": ["USER_TOKEN"],
+    "feeType": ["FREE"],
+    "templates": {
+      "default": "1"
+    }
+  }
+}
