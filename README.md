@@ -1,2 +1,2 @@
-# looker-studio-connector_shopify
+# Looker Studio connector - Shopify
 Basic connector for your Shopify data to Looker Studio
